@@ -1,0 +1,15 @@
+.country-container{
+  display: grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap: 20px;
+} 
+.flag-container{
+  display: flex;
+  
+} 
+.flag-container img{
+  width: 10%;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 10px;
+}
